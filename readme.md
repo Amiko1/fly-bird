@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-  Dino Clone
+    Flay Bird Clone
   <br>
 </h1>
 
