@@ -22,7 +22,12 @@ const initScenes = () => Scenes.map(createScene);
 
 const config = {
   type: Phaser.AUTO,
-  ...SHARED_CONFIG,
+  scale: {
+    mode: Phaser.Scale.FIT, // Adjust scaling mode as needed
+    ...SHARED_CONFIG,
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+
+  },
   pixelArt: true,
   physics: {
     // Arcade physics plugin, manages physics simlatuion
