@@ -27,8 +27,7 @@
 * Leveling system
 * Game start/restart
 * Game Menu
-* Save Hight Score at loclStorage
-* Audi system
+* Save Hight Score at localStorage
 
 
 ## How To Use
